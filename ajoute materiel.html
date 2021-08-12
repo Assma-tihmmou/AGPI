@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Ajoute Materiel</title>
+        <link rel="stylesheet" type="text/css" href="ajoute materiel style.css">
+        <meta charset="utf_8">
+        
+    </head>
+    <body>
+        <div class="ajoutematériel-form">
+            <h1>Ajouter Un  Materiel</h1>
+            <form action="ajoute materiel.php"  method="POST">
+                <p>N Materiel</p>
+                <input type="text" name="N_mat" placeholder="N Materiel">
+                <p>Nom</p>
+                <input type="text" name="Nom" placeholder="Nom">
+                <p>Type</p>
+                <select name="type">
+                    <option>EXTINCTEUR</option>
+                    <option>R.I.A</option>
+                    <option>Poteaux</option>
+                    <option>Accessoire</option>
+                </select>
+                <p>Emplacement</p>
+                <input type="text" name="emplacement" placeholder="emplacement">
+                <button type="submit">Enregistrer</button>
+            </form>
+        </div>
+    </body>
+</html>

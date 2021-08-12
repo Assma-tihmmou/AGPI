@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    background-image: url("background/extincteur2.0.png");
+    background-size: cover;
+
+}
+
+.homeagent-form{
+    width: 350px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color: rgb(230, 190, 10);
+    
+}
+.homeagent-form h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.homeagent-form button {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px ;  
+    width: 100%;
+    border-radius: 5px;
+    border: 0;
+    background-color: rgb(230, 190, 10);
+    position: relative;
+    
+    
+}
+.homeagent-form button:hover{
+    color:  #fff;
+}
+
+.btn5-form button {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px ;
+    margin-top: 600px;  
+    margin-left: 44%;
+    width: 10%;
+    border-radius: 5px;
+    border: 0;
+    background-color: rgb(230, 190, 10);
+}
+.btn5-form button:hover{
+    color: #fff;
+}
+
+.btn6-form button {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px ;
+    margin-top: -61px;  
+    margin-left: 774px;
+    width: 11%;
+    border-radius: 5px;
+    border: 0;
+    background-color: rgb(230, 190, 10);
+
+}
+.btn6-form button:hover{
+    color: #fff;
+}
+/*/
